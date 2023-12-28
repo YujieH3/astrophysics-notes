@@ -38,7 +38,7 @@ E, B -> 6 - 2 ($A_\mu$ Bianchi identity) - 1 ($A_0=0$) - 1 ($\nabla\cdot A=0$)
 = 2 degrees of freedom ~ 2 polarization
 EOM -> of time
 
-continuous limit <- large volume, small spacing
+continuous limit: large volume, small spacing
 -> creation / annihilation operator
 
 Quantum harmonic oscillator * N -> QFT
