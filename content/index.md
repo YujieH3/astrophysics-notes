@@ -5,7 +5,7 @@ Yujie 'Jay' He, 2023
 ###### [[Electromagnetism]]
 ###### [[Gravitation]]
 ###### [[Useful constants and units]]
-#### Astrophysics
+## Astrophysics
 ###### [[Blackbody Radiation]]
 ###### [[Eddington Limit]]
 ###### [[Hydrostatic Equilibrium]]
@@ -17,12 +17,12 @@ Yujie 'Jay' He, 2023
 ###### [[Stellar Model]]
 ###### [[Virial Theorem]]
 
-#### Black Hole and Gravitational Wave
+## Black Hole and Gravitational Wave
 ###### [[Black Hole Ringdown]]
 ###### [[Black Hole]]
 ###### [[Gravitational Wave]]
 
-#### Cosmology
+## Cosmology
 ###### [[Cosmic Microwave Background]]
 ###### [[Cosmology Standard Model]]
 ###### [[Cosmology with Galaxy Clusters]]
@@ -30,13 +30,13 @@ Yujie 'Jay' He, 2023
 ###### [[Hubble Parameter]]
 ###### [[Redshift, Scale Factor and Time]]
 
-#### General Relativity
+## General Relativity
 ###### [[Four Vectors]]
 ###### [[Theory of General Relativity]]
 ###### [[Lorentz Transformation]]
 ###### [[Vectors and Tensors]]
 
-#### Math
+## Math
 ###### [[Bayesian Theorem]]
 ###### [[Calculus for Physicists]]
 ###### [[Coordinate Transformation]]
@@ -54,11 +54,11 @@ Yujie 'Jay' He, 2023
 ###### [[Plancherel theorem]]
 ###### [[Statistics]]
 
-#### Quantum Theories
+## Quantum Theories
 ###### [[Quantum Mechanics]]
 ###### [[Dirac Equation]]
 
-#### Thermodynamics
+## Thermodynamics
 ###### [[Boltzmann & Saha Equation]]
 ###### [[Equipartition Theorem]]
 ###### [[Laws of Thermodynamics]]
