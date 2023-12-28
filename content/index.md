@@ -1,3 +1,1 @@
-# Welcome to my Flowershow site!
-[[Differential Geometry for Physicists]]
-[[Electromagnetism]]
+# Welcome to my astrophysics notes!
