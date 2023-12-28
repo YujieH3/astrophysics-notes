@@ -27,7 +27,7 @@ $$q:=-\dfrac{\ddot{a}a}{\dot{a}^2}=\frac{1}{2}\Omega_m + \Omega_r - \Omega_\Lamb
 
 ## Inflation
 Alan H. Guth: Inflaitionary Universe: A possible solution to the horizon and flatness problem
-Flatness + horizons <- inflation <- GW observation (not yet)
+Flatness + horizons $\leftarrow$ inflation $\leftarrow$ GW observation (not yet)
 
 ## Nucleosynthesis
 Boltzmann constant $k = 8.62\times 10^{-5} \mathrm{eV/K}$
