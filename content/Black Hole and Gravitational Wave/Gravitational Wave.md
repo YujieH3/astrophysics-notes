@@ -8,8 +8,8 @@ $m_1\sim 36M_\odot, m_2\sim 31M_\odot\longrightarrow M_f\sim 63M_\odot, a_f\sim 
 1. 2 polarizations: plus ($+$) and cross ($\times$).
 ![[Pasted image 20230226193140.png]]
 2. Dominated by quadrupole moment $I_{ij} = \int \rho(\vec x)x_ix_jd^3x$
-	No monopole moments <- total mass-energy conservation
-	No dipole moments <- center of mass-energy and total angular momentum conservation
+	No monopole moments $\leftarrow$ total mass-energy conservation
+	No dipole moments $\leftarrow$ center of mass-energy and total angular momentum conservation
 3. Hard to detect, $G/c^4\sim 10^{-45}$
 $$\frac{\Delta L}{L}\propto \frac{G}{c^4 r}\frac{d^2 I_{ij}}{dt^2}$$
 ## Instruments
