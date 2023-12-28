@@ -7,7 +7,7 @@ A sampling method.
 * Monte Carlo: random sampling
 After some burn-in samples, the samples after is (we wish) the stationary distribution, which has the desired probability distribution $p(x)$.
 
-How to design the Markov Chain? Stationary distribution to be $p(x)$ <- **detailed balance condition** $$p(x)T(y|x) = p(y)T(x|y)$$
+How to design the Markov Chain? Stationary distribution to be $p(x)$ $\leftarrow$ **detailed balance condition** $$p(x)T(y|x) = p(y)T(x|y)$$
 Summing $x$ over both sides shows why this is the condition of stationary distribution
 $$
 \begin{align}
