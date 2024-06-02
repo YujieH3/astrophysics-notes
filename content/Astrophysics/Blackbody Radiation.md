@@ -1,5 +1,5 @@
 #### The Planck curve
-The [Intensity](Radiation.md) of thermal radiation,
+The [Intensity](Radiation.md) of thermal radiation, energy emitted per unit time per unit area per frequency/wavelength per solid angle, unit ergs/s/cm2/sr/Hz
 $$
 B_\nu(T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/kT}-1}
 $$
@@ -15,15 +15,23 @@ u_\lambda(T) = \frac{8\pi hc}{\lambda^5}\frac{1}{e^{hc/\lambda kT}-1}
 $$
 
 ##### Stefan-Boltzmann Law
+Intergration of intensity over all frequencies yields the energy emitted per unit time per unit area.
 $$
 \begin{align}
-B(T) &= \int_0^\infty B_\nu(T) d\nu\\
+B(T) &= \int_0^\infty d\nu \int_0^{2\pi} d\phi \int_0^\pi \sin\theta d\theta  \, B_\nu(T) \frac{1}{2} \cos\theta\\
+&= \int_0^\infty d\nu \,\pi B_\nu(T)\\
 &= \frac{2\pi^5 k^4}{15c^2 h^3} T^4\\
 &= \sigma T^4
 \end{align}
 $$
-where $\sigma = \dfrac{2\pi^5 k^4}{15c^2 h^3} = 5.67\,Wm^{-2}K^{-4}$
+Energy density $u(T) = \frac{4}{c} \sigma T^4$
 
+where $\sigma = \dfrac{2\pi^5 k^4}{15c^2 h^3} = 5.67\,Wm^{-2}K^{-4}$ is the Boltzmann constant. Also $\pi B_\nu = F_\nu$ is what we call the radiation flux (erg/s/cm2) c.f. [[Radiation#Concepts and Terminology of Radiation]]
+
+Hence the luminosity of a spherical black body of radius $R$ is readily
+$$
+L = 4\pi R^2 \sigma T^4
+$$
 #### Einstein's Derivation
 Einstein 引入这样的跃迁概率系数，用来解释Planck公式为什么是这样的形式。
 
