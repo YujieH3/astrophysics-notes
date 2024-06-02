@@ -1,7 +1,10 @@
-A reminder: update this document every time you need to google for constants. And hopefully in the future you can look up most of them in this document.
+A reminder: update this document every time you need to google for constants and hopefully in the future you can look up most of them in this document. Keep in mind that these are only good enough for back-of-envelope calculation or homework problems.
 
 ### Constants
-
+Fine structure constant
+$$
+\alpha = \frac{e^2}{\hbar c} = \frac{1}{137.036}
+$$
 ##### Constants in the laws of the universe
 (because we human chose a bad group of units to begin with)
 Gravitational constant $G = 6.674×10^{−11} \,\mathrm{m^3\cdot kg^{-1}\cdot s^{-2}}$
