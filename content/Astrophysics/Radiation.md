@@ -1,4 +1,3 @@
-# Radiation
 ## Concepts and Terminology of Radiation
 
 - Radiation intensity (辐射强度) $I_\nu$, energy emitted per unit time per unit area per frequency/wavelength per solid angle
