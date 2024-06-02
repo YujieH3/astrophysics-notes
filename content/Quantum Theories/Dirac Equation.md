@@ -1,5 +1,8 @@
-Lecture note series of Origin and Structure of the Standard Model
+Source: lecture Origin and Structure of the Standard Model
 
+$$
+\boxed{\left(i\gamma^\mu\frac{\partial}{\partial x^\mu} - m\right)\psi = 0}
+$$
 ...
 relativistic S equation -> spin!
 
