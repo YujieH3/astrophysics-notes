@@ -1,3 +1,4 @@
+# Statistics for Astrophysicists
 ### Expectation $E$, or Mean $\mu$, Variance $\sigma$
 **Expectation $E$**. For discrete distribution $p_i$, probability of $X$ being $x_i$
 $$
@@ -44,6 +45,11 @@ often denoted as $N(\mu, \sigma^2)$
 
 ![[3sigma.jpg]]
 Where sigma is the variance.
+
+### Multivariate gaussian distribution 
+$$
+P(\mathbf{x}) = (2\pi)^{-k/2}\det (\boldsymbol\Sigma)^{-1/2} \, \exp \left( -\frac{1}{2} (\mathbf{x} - \boldsymbol\mu)^\mathrm{T} \boldsymbol\Sigma^{-1}(\mathbf{x} - \boldsymbol\mu) \right)
+$$
 
 ## Likelihood, the probability (density) of observing our data given some parameter value
 Therefore the integral $\int \mathcal{L(\theta)} d\theta$ does not necessarily $= 1$. Hence the "normalization" of likelihood over parameter space not only doesn't matter, but is also meaningless. 
