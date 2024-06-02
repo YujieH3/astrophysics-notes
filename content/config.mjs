@@ -6,7 +6,7 @@ const config = {
   // search: {          // Add a search bar
   //  provider: "kbar", 
   // },
-  title: "My Notes on Astrophysics",
+  // title: "My Notes on Astrophysics",
   // description: "",
   // author: "Yujie 'Jay' He",
   // logo: "/images/logo.svg",
