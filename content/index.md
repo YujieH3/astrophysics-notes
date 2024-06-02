@@ -25,7 +25,7 @@ Yujie 'Jay' He, 2023
 ## Cosmology
 ###### [[Cosmic Microwave Background]]
 ###### [[Cosmology Standard Model]]
-###### [[Cosmology with Galaxy Clusters]]
+###### [[Cluster Cosmology]]
 ###### [[Dark Matter]]
 ###### [[Hubble Parameter]]
 ###### [[Redshift, Scale Factor and Time]]
@@ -38,10 +38,10 @@ Yujie 'Jay' He, 2023
 
 ## Math
 ###### [[Bayesian Theorem]]
-###### [[Calculus for Physicists]]
+###### [[Calculus]]
 ###### [[Coordinate Transformation]]
 ###### [[Differential Equations for Physicists]]
-###### [[Differential Geometry for Physicists]]
+###### [[Differential Geometry]]
 ###### [[Finite Element Method (FEM)]]
 ###### [[Geometry]]
 ###### [[Group Theory for Physicists]]
@@ -64,3 +64,12 @@ Yujie 'Jay' He, 2023
 ###### [[Laws of Thermodynamics]]
 ###### [[Thermodynamic Process]]
 ###### [[Thermonuclear Reaction]]
+
+***
+[[General Relativity]]
+[[Big Bang Nuclearsynthesis]]
+[[Cosmological Distances]]
+***
+[[Standard Model Particles]]
+***
+[[Cross section]]
