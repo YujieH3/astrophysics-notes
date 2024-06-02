@@ -2,11 +2,11 @@
 
 // custom configurations
 const config = {
-  showSidebar: true, // Add a table of content sidebar
-  search: {          // Add a search bar
-    provider: "kbar", 
-  },
-  // title: "My Notes on Astrophysics",
+  // showSidebar: true, // Add a table of content sidebar
+  // search: {          // Add a search bar
+  //  provider: "kbar", 
+  // },
+  title: "My Notes on Astrophysics",
   // description: "",
   // author: "Yujie 'Jay' He",
   // logo: "/images/logo.svg",
