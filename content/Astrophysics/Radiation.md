@@ -1,13 +1,16 @@
-## 辐射强度
+# Radiation
+## Concepts and Terminology of Radiation
 
-- 辐射强度 $I_\nu$
+- Radiation intensity (辐射强度) $I_\nu$, energy emitted per unit time per unit area per frequency/wavelength per solid angle
 $$
 	dE_\nu = I_\nu d\sigma \cos{\theta} d\nu dt d\omega,
 $$
-- 辐射流 $\pi F_\nu$
+- Radiation flux (辐射流) $\pi F_\nu$
 $$
-	\pi F_\nu = \int_{4\pi} I_\nu(\theta) \cos{\theta} d\omega,
+	\pi F_\nu = \int_{2\pi} I_\nu(\theta) \cos{\theta} d\omega =
+	\int_0^{2\pi} d\phi \int_0^{\pi/2} \sin\theta d\theta  \, I_\nu \cos\theta,
 $$
+Note that the integration span only half the steradians ($2\pi$) in the direction of emission.
 - 辐射流矢量 $\pi \vec F_\nu$
 - 平均辐射强度 $J_\nu$
 $$
@@ -23,9 +26,16 @@ $$
 $$
 - 辐射压力张量 $\vec P_{R,\nu}$
 
-## 辐射转移方程
+## Other Concepts
+### Surface brightness 
+The surface brightness of a galaxy $I(x)$ is the amount of light on the sky at a particular point $x$ on the image. Consider a small patch of side $d$ in a galaxy located at a angular diameter distance $D_A$ and luminosity distance $D_L$. It will subtend an angle $\theta = d/D_A$ on the sky. If the combined luminosity of all the stars in this region is $L$, its apparent brightness is $F = L/(4πD_L^2)$.
+Therefore the surface brightness
+$$I(x) = F/α^2 = \frac{L}{4\pi D_L^2}\frac{D_A^2}{d^2} = \frac{L}{4\pi d^2}\frac{1}{(1+z)^4}.$$
+Note the last equation holds only under a flat geometry! (See [[Cosmological Distances]]) The appropriate units of $I(x)$ are $L_\odot/\mathrm{pc}^2$.
 
-- 光学深度 $\tau_\nu$
+## Radiative Transfer Equations
+
+- Optical depth $\tau_\nu$
 $$
 \tau_\nu = \int_0^s \chi_\nu\rho ds,\quad d\tau_\nu = \chi_\nu \rho ds,
 $$
@@ -42,9 +52,11 @@ $$
 
 则根据能量守恒可推导出辐射转移方程为
 $$
-\frac{dI_\nu}{ds} = -\chi_\nu I_\nu \rho + j_\nu\rho
+\boxed{\frac{dI_\nu}{ds} = -\chi_\nu I_\nu \rho + j_\nu\rho}
 $$
 其中$ds$沿着光线传播的方向
 
-## 参考资料
-《恒星大气物理》汪珍如 曲钦岳
+## Reference
+1. 《恒星大气物理》汪珍如 曲钦岳
+2. Rijksuniversiteit Groningen galaxy course: https://www.astro.rug.nl/~ahelmi/galaxies_course/class_VII-E/ellip-06.pdf
+
