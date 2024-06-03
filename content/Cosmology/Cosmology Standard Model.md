@@ -24,10 +24,69 @@ $$\boxed{\frac{\ddot a}{a} = -\frac{4\pi G}{3}\sum_i(\rho_i + 3p_i)}$$
 Combining the above we have the third Friedmann Equation
 $$\boxed{\dot \rho + \frac{3\dot a}{a}(\rho + p) = 0}$$
 ###### pf. Newtonian derivation
-The Friedmann Equation can fomally be derived from Newtonian physics, without General Relativity. It is not a GR effect. Consider a ball with radius $r$ and 
+The Friedmann Equation can fomally be derived from Newtonian physics, without General Relativity. It is not a GR effect. Consider a ball with radius $a(t)$. The total mass inside the ball would be $M$. Assume that there is no matter exchange between inside and the outside of the ball, hence the mass $M=M(<a)=\text{const.}$ stays constant.
+
+Start from Newton's second law
+$$
+\frac{d^2a(t)}{dt^2} = - \frac{GM}{a^2(t)}
+$$
 
 
+imposing a useful transformation
+$$
+\frac{d^2a(t)}{dt^2} = \frac{d}{dt} \frac{da}{dt} = \frac{da}{dt} \frac{d}{da} \frac{da}{dt} = \dot{a} \frac{d}{da} \dot{a} = \frac{1}{2} \frac{d}{da}(\dot{a}^2)
+$$
+The result can be easily integrated, denoting the integration constant as $\kappa$ on the LHS
+$$
+\dot{a}^2 + \kappa = 2\frac{GM}{a(t)}
+$$
 
+Expressing $M = \frac{4\pi}{3}\rho(t) a(t)^3$. Here $\rho(t)$ changes as $a(t)^{-3}$ to make $M$ constant over time. Then we have
+$$
+\frac{\dot{a}^2}{a^2} + \frac{\kappa}{a^2} = \frac{8\pi G}{3}\rho(t)
+$$
+
+You might want to ask, in Friedmann equations we take into account for radiation (relativistic matter which scales with $a^{-4}$) and dark energy (which is guessed to scale with some $a^{-3(w+1)}$ we are not sure of), where are those stuff here? It's because they are not thought to interact with gravity in newtonian physics. 
+
+Also directly from Newton's second law, divide the equation by $a(t)$ gives the second Friedmann equation, but without the pressure term.
+$$
+\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\rho
+$$
+Why Einstein’s equations are needed if $p\neq 0$? – For non-relativistic matter $p ≪ ρ$, while for the relativistic matter $p = \frac{1}{3} ρ$. Therefore, pressure term only important to describe gravitation of relativistic matter.
+###### Radiation dominated universe (early universe)
+The Friedmann equation can be written as
+$$
+\frac{\dot{a}^2}{a^2} = H_0^2\Omega_{r,0} a^{-4},
+$$
+it follows
+$$
+ada = H_0\sqrt{\Omega_{r,0}} dt
+$$
+integration yields
+$$
+\frac{1}{2} a^2 = H_0\sqrt{\Omega_{r,0}} t + \text{const.}
+$$
+Initial condition $a=0$ when $t=0$, so the integration constant is $0$. And the result
+$$
+a(t) = \sqrt{2H_0\Omega_{r,0}^{1/2}} t^{1/2} = \left( \frac{32\pi G}{3}\rho_{r,0} \right)^{1/4} t^{1/2} 
+$$
+From here we also have some other important implications. Such as the relativistic matter density in radiation dominated universe (early universe)
+$$
+\rho_r(t) =  \rho_{r,0} a(t)^{-4} = \frac{3}{32\pi G} \frac{1}{t^2}
+$$
+Combining the relativistic matter (matter with $\langle p\rangle \gtrsim m$) density as a function of temperature (this equation is deduced by integrating the BE and FD distribution)
+$$
+\rho_r = \frac{\pi^2}{30}g_* T^4,\qquad g_* = \sum_\text{boson species} g_i + \frac{7}{8} \sum_\text{fermion species} g_i
+$$
+we can deduce temperature as a function of time or the scale factor in the early radiation dominated epoch ($k_B = \hbar = c = 1$ units)
+$$
+T = \left( \frac{30}{\pi^2} \frac{\rho_{r,0}}{g_*} \right)^{1/4} a^{-1} = \left( \frac{45}{32\pi^3 Gg_*} \right)^{1/4} t^{-1/2}
+$$
+
+###### Matter dominated universe (late-current universe)
+
+
+###### Dark energy dominated universe (future state)
 ## Cosmology parameters
 We can rewrite the first Friedmann equation by
 $$
