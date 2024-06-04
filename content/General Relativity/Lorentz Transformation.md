@@ -1,9 +1,13 @@
 [[Four Vectors]]
 ## Lorentz Transformation
 Lorentz transformation is transformations that keep spacetime interval invariant, which is equivalent to, in matrix notation
-$$\eta = \Lambda^\top \eta \Lambda$$
+$$
+\eta = \Lambda^\top \eta \Lambda
+$$
 or in index notation
-$$\eta_{\rho\sigma} = \Lambda^{\mu'}\,_\rho \Lambda^{\nu'}\,_\sigma\eta_{\mu'\nu'}$$
+$$
+\eta_{\rho\sigma} = \Lambda^{\mu'}\,_\rho \Lambda^{\nu'}\,_\sigma\eta_{\mu'\nu'}
+$$
 A rotation free Lorentz transformation is called a Lorentz boost.
 
 In the most well-known form,
