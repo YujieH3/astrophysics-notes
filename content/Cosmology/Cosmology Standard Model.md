@@ -16,13 +16,19 @@ $$
 (They are not only equivalent, but also equal.)
 ## Friedmann Equations
 The first Friedmann Equation
-$$\boxed{\frac{{\dot a}^2}{a^2} + \frac{k}{a^2} = \frac{8\pi G}{3}\sum_i\rho_i}$$
+$$
+\boxed{\frac{{\dot a}^2}{a^2} + \frac{k}{a^2} = \frac{8\pi G}{3}\sum_i\rho_i}
+$$
 The curvature term $\frac{k}{a^2}$ is the integration constant if you integrate from Newtonian approach, $k$ as a "minus total energy of the system". *Turns out the relativistic correction is unimportant, the equation deduced from GR and Newtonian gravity is the same*.
 
 The second Friedmann Equation
-$$\boxed{\frac{\ddot a}{a} = -\frac{4\pi G}{3}\sum_i(\rho_i + 3p_i)}$$
+$$
+\boxed{\frac{\ddot a}{a} = -\frac{4\pi G}{3}\sum_i(\rho_i + 3p_i)}
+$$
 Combining the above we have the third Friedmann Equation
-$$\boxed{\dot \rho + \frac{3\dot a}{a}(\rho + p) = 0}$$
+$$
+\boxed{\dot \rho + \frac{3\dot a}{a}(\rho + p) = 0}
+$$
 ###### pf. Newtonian derivation
 The Friedmann Equation can fomally be derived from Newtonian physics, without General Relativity. It is not a GR effect. Consider a ball with radius $a(t)$. The total mass inside the ball would be $M$. Assume that there is no matter exchange between inside and the outside of the ball, hence the mass $M=M(<a)=\text{const.}$ stays constant.
 
@@ -126,10 +132,3 @@ $$
 ## Inflation
 Alan H. Guth: Inflaitionary Universe: A possible solution to the horizon and flatness problem
 Flatness + horizons $\leftarrow$ inflation $\leftarrow$ GW observation (not yet)
-
-## Nucleosynthesis
-Boltzmann constant $k = 8.62\times 10^{-5} \mathrm{eV/K}$
-Nucleosynthesis: proton and neutron (Baryon matter)
-matter >> antimatter
-Baryon number density $n_B$ . Baryon to photon ratio $\eta = n_B/n_\gamma$
-
