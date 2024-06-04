@@ -11,4 +11,10 @@ For a blob of ideal gas,
 $$
 E = \frac{3}{2}Nk_BT = \frac{3}{2}nRT.
 $$
+Note that this equation is valid only under **nonrelativistic ideal monatomic gas in its rest frame**, and does not generalize. 
 
+Discussion
+https://physics.stackexchange.com/questions/262382/relativity-of-temperature-paradox
+
+##### Derivation
+Integrating the Maxwell-Boltzmann distribution
