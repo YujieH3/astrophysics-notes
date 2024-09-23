@@ -40,7 +40,7 @@ $$
 $$
 For monatomic gas $\gamma = 5/3$
 
-### Application: derivation of sound speed
+###### Application: derivation of sound speed
 $$
 c_s^2 \sim \left.\frac{dP}{d\rho}\right|_{ad}
 $$
