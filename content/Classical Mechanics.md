@@ -12,7 +12,7 @@ $$
 
 Similarly the Euler-Lagrangian equation for fields $\phi^a(x^\mu)$ (a bunch of fields, hence the subscript) is
 $$
-\partial_\mu \frac{\mathcal L}{\partial\, \partial_\mu\phi^a} - \frac{\partial\mathcal L}{\partial \phi^a} = 0
+\partial_\mu \frac{\partial\mathcal L}{\partial\, \partial_\mu\phi^a} - \frac{\partial\mathcal L}{\partial \phi^a} = 0
 $$
 #### Noether's theorem
 
