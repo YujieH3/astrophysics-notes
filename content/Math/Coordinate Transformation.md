@@ -89,27 +89,29 @@ z
 which is the formula in 《天文学教程》and《球面天文学》.
 
 ## Rotation Matrix
-$$Rx(\theta) = 
+$$R_x(\theta) = 
 \begin{pmatrix}
 1 & 0 & 0\\
 0 & \cos\theta & \sin\theta\\
 0 & -\sin\theta & \cos\theta\\
-\end{pmatrix}$$
-
-$$Ry(\theta) = 
+\end{pmatrix}
+\qquad
+R_y(\theta) = 
 \begin{pmatrix}
 \cos\theta & 0 & -\sin\theta\\
 0 & 1 & 0\\
 \sin\theta & 0 & \cos\theta\\
-\end{pmatrix}$$
-
-$$Rz(\theta) = 
+\end{pmatrix}
+\qquad
+R_z(\theta) = 
 \begin{pmatrix}
 \cos\theta & \sin\theta & 0\\
 -\sin\theta & \cos\theta & 0\\
 0 & 0 & 1\\
-\end{pmatrix}$$
-Rotational matrices are orthogonal matices.
+\end{pmatrix}
+$$
+- Rotational matrices are orthogonal matices.
+- The different sign of $R_y$ is not a mistake, think about it. It follows the permutation: zxy, xyz, yzx (instead of yxz). 
 
 ## Orthogonal Matrix
 A matrix $A$ is called orthogonal if
