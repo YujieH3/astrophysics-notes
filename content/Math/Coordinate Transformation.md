@@ -110,9 +110,12 @@ R_z(\theta) =
 0 & 0 & 1\\
 \end{pmatrix}
 $$
-- Rotational matrices are orthogonal matices.
+- Rotational matrices are orthogonal matices: $R^T = R^{-1} = R(-\theta)$
 - The different sign of $R_y$ is not a mistake, think about it. It follows the permutation: zxy, xyz, yzx (instead of yxz). 
-
+- Multiplying rotation matrix to the right is rotating the vector by $-\theta$
+$$
+\boldsymbol{v}^TR_x(\theta) = [R_x(\theta)^T\boldsymbol{v}]^T = [R_x(-\theta) \boldsymbol{v}]^T
+$$
 ## Orthogonal Matrix
 A matrix $A$ is called orthogonal if
 
