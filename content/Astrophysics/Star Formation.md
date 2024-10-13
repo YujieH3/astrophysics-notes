@@ -24,6 +24,20 @@ R > \left(\frac{15kT}{4\pi G\mu m_H\rho}\right)^{1/2} := R_J
 $$
 其中$M_J, R_J$分别称金斯质量，金斯半径。上二式称恒星形成的金斯判据。
 
+###### Other definition of Jeans length
+Taken from Joop's Large Scale Structures and Galaxy Formation
+$$
+L_J = c_s\sqrt{\frac{\pi}{G\rho}}
+$$
+Substituting the expression for sound speed ([[Thermodynamic Process#Application derivation of sound speed]])
+$$
+c_s = \sqrt{\frac{\gamma kT}{\mu m_p}}
+$$
+For monatomic gas
+$$
+L_J = \sqrt{\frac{5\pi kT}{3G\mu m_H\rho}}
+$$
+
 
 ## Free Fall
 解运动方程得到的分子云坍缩自由下落时标为
