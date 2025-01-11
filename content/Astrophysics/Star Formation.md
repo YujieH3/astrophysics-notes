@@ -1,3 +1,5 @@
+> [!Warning]
+> Some of these notes I took during my bachelors in Nanjing University and are in Chinese.
 ### Jeans Criterion
 根据[位力定理](Virial%20Theorem.md Theorem>)，自引力束缚的平衡系统有
 $$
