@@ -1,21 +1,36 @@
 ## Concepts and Terminology of Radiation
 
-- Radiation intensity (辐射强度) $I_\nu$, energy emitted per unit time per unit area per frequency/wavelength per solid angle
+**Radiation intensity** (辐射强度) $I_\nu$, energy emitted per unit time per unit area per frequency/wavelength per solid angle. Let dEν be the energy in radiation at frequency ν, in frequency interval dν, from solid angle dΩ, flowing through an area dA, in a time interval dt :
 $$
-	dE_\nu = I_\nu d\sigma \cos{\theta} d\nu dt d\omega,
+dE_\nu = I_\nu d\nu d\Omega d\sigma \cos{\theta} dt = I_\nu d\nu d\Omega dA dt
 $$
-- Radiation flux (辐射流) $\pi F_\nu$
+$$
+I_\nu = I_\nu(\nu, \hat{n}, \vec{r}, t)
+$$
+- units: erg s-1 cm-2 sr-1 Hz-1. 
+- sr: steradian, $4\pi$ for full sky
+
+An alternative, equivalent (and often simpler) way to express specific intensity is by the photon occupation number $n_\gamma$
+$$
+n_\gamma = \frac{c^2}{2h\nu^3} I_\nu
+$$
+
+(Rayleigh-Jeans) brightness temperature, equals to thermal temperature in radio regime $kT\gg h\nu$
+$$T_b(\nu) = \frac{c^2}{2k\nu^2} I_\nu$$
+
+**Radiation flux** (辐射流) $\pi F_\nu$
 $$
 	\pi F_\nu = \int_{2\pi} I_\nu(\theta) \cos{\theta} d\omega =
 	\int_0^{2\pi} d\phi \int_0^{\pi/2} \sin\theta d\theta  \, I_\nu \cos\theta,
 $$
 Note that the integration span only half the steradians ($2\pi$) in the direction of emission.
+
 - 辐射流矢量 $\pi \vec F_\nu$
 - 平均辐射强度 $J_\nu$
 $$
 	J_\nu = \dfrac{1}{4\pi} \int_{4\pi}I_\nu(\theta)d\omega,
 $$
-- 辐射密度 $U_\nu$
+- Energy density (辐射密度) $U_\nu$ (erg cm-3 Hz-1)
 $$
 	U_\nu = \dfrac{1}{c} \int_{4\pi} I_\nu d\omega,
 $$
@@ -55,7 +70,7 @@ $$
 $$
 其中$ds$沿着光线传播的方向
 
-## Reference
+## References
 1. 《恒星大气物理》汪珍如 曲钦岳
 2. Rijksuniversiteit Groningen galaxy course: https://www.astro.rug.nl/~ahelmi/galaxies_course/class_VII-E/ellip-06.pdf
-
+3. Lecture notes of Paul van der Werf, *Interstellar Medium*
