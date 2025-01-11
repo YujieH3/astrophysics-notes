@@ -1,15 +1,15 @@
 ## The Differential Equations of Stellar Evolution
-1. 质量分布方程
+1. Mass distribution
 $$\frac{dr}{dM_r} = \frac{1}{\rho4\pi r^2}$$
-2. 流体静力学平衡方程
+2. Hydrodynamics equilibrium
 $$\frac{dp}{dM_r} = -\frac{GM_r}{4\pi r^4}$$
-3. 能量方程
+3. Energy equation
 $$ \frac{dL}{dM_r}=\varepsilon_N + \varepsilon_g - \varepsilon_\nu $$
 Where 
 $\varepsilon_g = - c_P \dot T + \dfrac{\delta}{\rho}\dot P$
 $\delta = -(\partial \ln P/\partial \ln T)_p$
 
-4. 能量传输方程
+4. Energy transfer equation
 
 Radiation
 $$\frac{dT}{dr} = -\frac{3}{4ac}\frac{\bar\kappa \rho}{T^3}\frac{L_r}{4\pi r^2}$$
