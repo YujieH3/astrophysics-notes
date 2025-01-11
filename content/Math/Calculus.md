@@ -64,20 +64,4 @@ $$
 $$
 \int e^{i\vec k\cdot \vec x}d^3x = (2\pi)^3\delta(\vec k)
 $$
-### Gaussian Integral
-$$
-\int^\infty_{-\infty} e^{-x^2}dx = \sqrt \pi
-$$
-$$\int^\infty_{-\infty} e^{-fx^2+gx}dx = \sqrt{\frac{\pi}{f}}\exp\left(\frac{g^2}{4f}\right)$$
-To calculate the Gaussian integral, consider the square of a Gaussian and integrate in polar coordinate $(r,\theta)$. Set
-$$
-I = \int\mathrm{d}x\, e^{-x^2}
-$$
-then consider the double integral $I^2$
-$$
-\int \,\mathrm{d}x\,\mathrm{d}y\, e^{-(x^2+y^2)} = \int \mathrm{d}r\,\mathrm{d}\theta\,re^{-r^2} = 2\pi\int r\mathrm{d}r\,e^{-r^2} = \pi\int\mathrm{d}r^2\,e^{-r^2} = \pi
-$$
-Hence
-$$
-I = \sqrt{\pi}
-$$
+[[Gaussian integral]]
