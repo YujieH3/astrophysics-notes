@@ -22,7 +22,6 @@ $$
 D_P \equiv a_o S_k(r) \rightarrow^{a_o=1} D_C
 $$
 
-^08fae8
 #### 3. Luminosity distance
 $$
 D_L \equiv \frac{a_o^2}{a_e}r_e \rightarrow^{a_o=1} (1+z)^2D_A \rightarrow^{K=0}_{a_0=1} (1+z) D_C
