@@ -32,5 +32,31 @@ U \in SU(n) = \left\{U\in O(n), \det U=1\right\}\\
 }
 $$
 
-
-
+## Rotation Matrix
+$$R_x(\theta) = 
+\begin{pmatrix}
+1 & 0 & 0\\
+0 & \cos\theta & \sin\theta\\
+0 & -\sin\theta & \cos\theta\\
+\end{pmatrix}
+\qquad
+R_y(\theta) = 
+\begin{pmatrix}
+\cos\theta & 0 & -\sin\theta\\
+0 & 1 & 0\\
+\sin\theta & 0 & \cos\theta\\
+\end{pmatrix}
+\qquad
+R_z(\theta) = 
+\begin{pmatrix}
+\cos\theta & \sin\theta & 0\\
+-\sin\theta & \cos\theta & 0\\
+0 & 0 & 1\\
+\end{pmatrix}
+$$
+- Rotational matrices are orthogonal matices: $R^T = R^{-1} = R(-\theta)$
+- The different sign of $R_y$ is not a mistake, think about it. It follows the permutation: zxy, xyz, yzx (instead of yxz). 
+- Multiplying rotation matrix to the right is rotating the vector by $-\theta$
+$$
+\boldsymbol{v}^TR_x(\theta) = [R_x(\theta)^T\boldsymbol{v}]^T = [R_x(-\theta) \boldsymbol{v}]^T
+$$
