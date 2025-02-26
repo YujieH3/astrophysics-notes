@@ -1,5 +1,3 @@
-> [!Warning]
-> Some of these notes I took during my bachelors in Nanjing University and are in Chinese.
 # Eddington Luminosity, Eddington Limit
 在 Eddington 光度下光压提供的压强梯度和流体静力学平衡下引力的压强梯度平衡，是辐射平衡下恒星所达到的最大的辐射光度。"The theoretical maximum luminosity that can be emitted when radiation pressure and gravity are in equilibrium in a spherical geometry."
 
