@@ -1,3 +1,9 @@
+# Pressure Integral
+$$
+\boxed{
+P = \frac{1}{3} \int_0^\infty pv_pn(p)dp
+}
+$$
 ## Introduction
 具有动量 $p$ 的单个粒子对容器壁的压力的贡献为,
 $$
@@ -18,9 +24,8 @@ $$
 $$
 P = \frac{1}{3}\int_0^\infty n_ppv dp
 $$
-
 ## Application
-### Ideal gas
+### Deriving ideal gas equation
 $$p = mv$$
 $$dn = n_p dp = n_v dv$$
 Using Maxwell-Boltzmann Distribution
@@ -28,7 +33,7 @@ $$n_v dv = n\left(\frac{m}{2\pi kT}\right)^{3/2}e^{-mv^2/2kT}4\pi v^2 dv$$
 Finally
 $$P = m\frac{1}{3}\int_0^\infty n_v v^2dv = nkT$$
 
-### Blackbody Radiation
+### Deriving the radiation pressure from Planck equation
 
 $$p = \frac{h\nu}{c}$$
 $$dn = n_p dp = n_\nu d\nu$$
@@ -49,4 +54,3 @@ Where
 $$\int_{4\pi}\cos^2d\omega = \frac{4\pi}{3}$$
 Therefore
 $$P_{R,\nu} = \frac{4\pi}{3c}B_{\nu}(T) = \frac{1}{3}u_\nu$$
-
