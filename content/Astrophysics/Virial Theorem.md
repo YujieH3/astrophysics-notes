@@ -1,3 +1,4 @@
+# Virial theorem
 The Virial theorem is of vital importance in astronomy and astrophysics.
 
 For a stable system of discrete particles, bound by a conservative force (forces characterized exclusively by their work), with that of the total potential energy of the system. Mathematically, the theorem states
