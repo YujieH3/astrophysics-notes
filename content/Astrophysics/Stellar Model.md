@@ -1,3 +1,4 @@
+# Stellar Model
 ## The Differential Equations of Stellar Evolution
 1. Mass distribution
 $$\frac{dr}{dM_r} = \frac{1}{\rho4\pi r^2}$$
