@@ -1,5 +1,5 @@
 [[Four Vectors]]
-## Lorentz Transformation
+# Lorentz Transformation
 Lorentz transformation is transformations that keep spacetime interval invariant, which is equivalent to, in matrix notation
 $$
 \eta = \Lambda^\top \eta \Lambda
@@ -37,3 +37,18 @@ $$
 0 & 0 & 0 & 1
 \end{pmatrix}
 $$
+## Lorentz group
+The set of all Lorentz transformations forms a group:
+- Associative: product of any two Lorentz transformations is also a Lorentz transformation.
+- Identity: There exists an identity transformation that is a Lorentz transformation, $\delta^\mu\,_\nu$
+- Every Lorentz transformation has an inverse
+
+Lorentz group has two important subgroups: 
+- *proper*: $\det\Lambda = +1$; *improper*: $\det\Lambda = -1$.
+- *orthochronous*: $\Lambda^0\,_0 \geq +1$. ($\Lambda^0\,_0$ can only be $\geq +1$ or $\leq -1$).
+
+We can write infinitesimal Lorentz Transformation as
+$$
+\Lambda^\mu\,_\nu = \delta^\mu\,_\nu+\delta\omega^\mu\,_\nu
+$$
+Only *proper* and *orthochronous* transformations can be reached by compounding infinitesimal transformations.
