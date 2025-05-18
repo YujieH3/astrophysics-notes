@@ -1,6 +1,5 @@
 # Big Bang Nuclear synthesis (BBN)
 reference: [Hannu Kurki-Suonio](https://www.mv.helsinki.fi/home/hkurkisu/)'s cosmology lecture notes. 
-
 ## Conservation of entropy
 
 >[!Hannu's Cosmology II (2022), p84]
