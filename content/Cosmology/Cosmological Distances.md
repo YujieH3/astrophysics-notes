@@ -1,7 +1,7 @@
 # Cosmological Distances
 
 #### Coordinate distance, the one in the metric
-as in FLRW metric (see [[Cosmology Standard Model#Friedmann-Robertson-Walker-Lemaître Metric]])
+as in FLRW metric (see [[LCDM Model#Friedmann-Robertson-Walker-Lemaître Metric]])
 #### 1. Comoving distance
 $$
 D_C \equiv S_k(r) \equiv \int_0^r \frac{dr'}{\sqrt{1 - Kr'^2}} = \left\{
