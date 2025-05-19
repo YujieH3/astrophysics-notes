@@ -1,5 +1,5 @@
 # Basic terminologies
-### Expectation $E$, or Mean $\mu$, Variance $\sigma$
+### Expectation / Mean / Variance
 **Expectation $E$** or **Mean $\mu$**. For discrete distribution $p_i$, 
 $$
 \mu = \sum^n_{i=1}p_ix_i
