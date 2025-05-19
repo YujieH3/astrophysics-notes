@@ -38,6 +38,7 @@ $$
 \end{pmatrix}
 $$
 ## Lorentz group
+(From Srednicki, 2)
 The set of all Lorentz transformations forms a group:
 - Associative: product of any two Lorentz transformations is also a Lorentz transformation.
 - Identity: There exists an identity transformation that is a Lorentz transformation, $\delta^\mu\,_\nu$
@@ -49,6 +50,31 @@ Lorentz group has two important subgroups:
 
 We can write infinitesimal Lorentz Transformation as
 $$
-\Lambda^\mu\,_\nu = \delta^\mu\,_\nu+\delta\omega^\mu\,_\nu
+\Lambda^\mu\,_\nu = \delta^\mu\,_\nu+\delta\omega^\mu\,_\nu,\quad \delta\omega_{\mu\nu} = -\delta\omega_{\nu\mu} \,(\text{d.o.f.=6})
 $$
-Only *proper* and *orthochronous* transformations can be reached by compounding infinitesimal transformations.
+the 6 degree of freedom can be completely decomposed to three rotations with infinitesimal angle ($\delta\theta$) and three boosts with infinitesimal *rapidity* ($\delta\eta$),
+$$
+\delta \omega_{ij} = -\varepsilon_{ijk}\hat{n}_k\delta\theta,\quad \delta \omega_{i0} = \hat{n}_i\delta\eta
+$$
+Only *proper* and *orthochronous* transformations can be reached by compounding infinitesimal transformations. When a theory is said to be Lorentz invariant, this means under the proper orthochronous subgroup only.
+
+**Parity transformation**, orthochronous but improper
+$$
+\mathcal{P}^\mu\,_\nu = \begin{pmatrix}
+1 &  &  & \\
+ & -1 &  & \\
+ &  & -1 & \\
+ &  &  & -1
+\end{pmatrix}
+$$
+and **time-reversal transformation**, nonorthochronous and improper
+$$
+\mathcal{T}^\mu\,_\nu = \begin{pmatrix}
+-1 &  &  & \\
+ & 1 &  & \\
+ &  & 1 & \\
+ &  &  & 1
+\end{pmatrix}
+$$
+are usually discussed separately.
+
