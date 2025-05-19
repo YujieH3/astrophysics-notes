@@ -51,8 +51,8 @@ $$the bar over means complex conjugate. $X, Y$ is called *independent* if $\text
 In 2-dimension, covariance matrix $\Sigma$ or $C$ is defined as
 $$
 \Sigma := \begin{pmatrix}
-\mathrm{var}(X) & \mathrm{cov}(X,Y) \\
-\mathrm{cov}(Y,X) & \mathrm{var}(Y)
+\mathrm{Var}(X) & \mathrm{Cov}(X,Y) \\
+\mathrm{Cov}(Y,X) & \mathrm{Var}(Y)
 \end{pmatrix}
 $$
 Covariance matrices are naturally symmetric by definition. In general,
