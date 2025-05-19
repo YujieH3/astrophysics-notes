@@ -12,7 +12,7 @@ for object with mass
 $$
 p^\mu=mU^\mu=(E, \vec p)
 $$
-By definition
+By definition (in (-+++) convention)
 $$p_\mu p^{\mu} = -m^2$$
 
 For a photon
