@@ -8,6 +8,3 @@ https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/
 By Oct 2024, I'm starting a project to study a new set of multifield inflation solution attractors, focusing on the mathematical structure as well as the observational evidences. You are welcomed to check under the cosmology folder for some of my notes on this topic.
 
 This website is created using Obsidian and Flowershow.
-
-> [!Warning]
-> Some (<3%) of these notes I took during my bachelors in Nanjing University and are in Chinese.
