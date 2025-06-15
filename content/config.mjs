@@ -6,9 +6,9 @@ const config = {
   search: {          // Add a search bar
     provider: "kbar", 
   },
-  title: "My Notes on Astrophysics",
+  title: "Yujie He",
   description: "",
-  author: "Yujie 'Jay' He",
+  // author: "Yujie He",
   // logo: "/images/logo.svg",
   // domain: "https://john.app/",
   // links to the pages you want to link to in the navbar and in the footer
