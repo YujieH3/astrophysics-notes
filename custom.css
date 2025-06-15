@@ -1,8 +1,8 @@
 p {
-font-size: 12px;
-font-family: Verdana,Helvetica,Arial,sans-serif;
+font-size: 12px !important;
+font-family: Verdana,Helvetica,Arial,sans-serif !important;
 }
 
 .prose {
-line-height: 1.5;
+line-height: 1.5 !important;
 }
