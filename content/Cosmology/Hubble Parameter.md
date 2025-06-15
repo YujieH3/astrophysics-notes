@@ -1,4 +1,4 @@
-[[LCDM Model]]
+[[Friedmann Equations]]
 Definition
 $$H_0 := \frac{\dot a_0}{a_0} = H(0)$$
 and as a function of redshift
