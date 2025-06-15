@@ -29,7 +29,3 @@ $1\,\mathrm{Jy} \approx 10^{-26}\,\mathrm{W\cdot m^{-2} \cdot Hz^{-1}} \approx 1
 ### CGS
 ![[Screenshot from 2022-07-21 19-27-43.png]]
 
-## More Constants
-![[wall2014.pdf]]![[wallet2014.pdf]]
-![[physical_constants_cgs.pdf]]
-
