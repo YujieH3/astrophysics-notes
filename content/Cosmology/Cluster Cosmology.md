@@ -20,7 +20,7 @@ $$
 
 **Density of ICM** (from surface brightness profile)
 
-**Overdensity Radii** $R_\Delta$ - A radius within which the mean density is $\Delta$ times the critical density ($\rho_c$) at the cluster's redshift. Denoted as $R_\Delta$. And the total mass within $R_\Delta$ is denoted as $M_\Delta = \Delta\rho_c \dfrac{4\pi}{3}R_\Delta^3$. $\displaystyle \Delta=\frac{\rho}{\rho_c}$ and recall from [[LCDM Model]], $\rho_c := \dfrac{3H(z)^2}{8\pi G}$. 
+**Overdensity Radii** $R_\Delta$ - A radius within which the mean density is $\Delta$ times the critical density ($\rho_c$) at the cluster's redshift. Denoted as $R_\Delta$. And the total mass within $R_\Delta$ is denoted as $M_\Delta = \Delta\rho_c \dfrac{4\pi}{3}R_\Delta^3$. $\displaystyle \Delta=\frac{\rho}{\rho_c}$ and recall from [[Friedmann Equations]], $\rho_c := \dfrac{3H(z)^2}{8\pi G}$. 
 
 Simulations show $R_{200} \sim$ virial radius: radius separating relaxed part of cluster from infalling material. $R_{500} \, (\sim 0.5 R_{200})$ is radius measured out to in typical X-ray observations. 
 
