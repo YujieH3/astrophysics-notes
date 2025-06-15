@@ -1,0 +1,1 @@
+$$S = UK$$where $U$ is an [[Unitary transformation]] and $K$ is complex conjugation, analogy to rotation + reflection.
