@@ -1,0 +1,1 @@
+If $x_i \sim \rho(x_i)$ for $N$ independent variables $x_i$, then for $N\rightarrow \infty$, we have $\sum_i^N x_i \sim$ Gaussian.
